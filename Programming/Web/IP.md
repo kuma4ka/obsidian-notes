@@ -1,3 +1,0 @@
-**The Internet Protocol (IP)** is the method for sending data from one device to another across the internet. Every device has an IP address that uniquely identifies it and enables it to communicate with and exchange data with other devices connected to the internet.  Today, it’s considered the standard for fast and secure communication directly between mobile devices.
-
-Source [ip](https://www.fortinet.com/resources/cyberglossary/tcp-ip#:~:text=The%20Internet%20Protocol,between%20mobile%20devices.)
