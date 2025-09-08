@@ -1,3 +1,0 @@
-- Use firewalls to filter traffic by IP, port, and protocol  
-- Deploy IDS/IPS to detect exploits  
-- Regularly review logs and set alerts for unusual activity

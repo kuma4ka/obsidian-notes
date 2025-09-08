@@ -1,6 +1,0 @@
-- **Usage:** Email retrieval and folder management  
-- **Threats:** Unencrypted interception  
-- **Best Practices:**  
-  - Use IMAPS (port 993)  
-  - Robust authentication  
-  - Limit access to known clients

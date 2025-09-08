@@ -1,2 +1,0 @@
-- Fewer open ports = fewer opportunities for attackers  
-- Adopt a "default-deny" policy: close all ports by default, open only required ones

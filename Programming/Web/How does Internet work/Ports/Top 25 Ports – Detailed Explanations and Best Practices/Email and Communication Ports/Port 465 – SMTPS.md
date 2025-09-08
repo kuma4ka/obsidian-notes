@@ -1,6 +1,0 @@
-- **Usage:** SMTP over SSL (largely replaced by 587)  
-- **Threats:** Outdated SSL vulnerabilities  
-- **Best Practices:**  
-  - Use modern TLS on 465/587  
-  - Ensure valid certificates  
-  - Strong cipher suites

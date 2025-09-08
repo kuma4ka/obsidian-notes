@@ -1,6 +1,0 @@
-- **Usage:** Secure web traffic via SSL/TLS  
-- **Threats:** Older TLS vulnerabilities, certificate misconfigurations  
-- **Best Practices:**  
-  - Enforce TLS 1.2+  
-  - Use strong cipher suites  
-  - Enable OCSP Stapling & HSTS

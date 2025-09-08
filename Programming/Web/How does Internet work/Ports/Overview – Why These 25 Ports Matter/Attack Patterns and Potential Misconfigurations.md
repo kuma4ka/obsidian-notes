@@ -1,3 +1,0 @@
-- Default configurations and weak authentication are primary targets  
-- Example: EternalBlue on SMB (445), SSH brute force (22)  
-- Proper patching and configuration mitigate these risks

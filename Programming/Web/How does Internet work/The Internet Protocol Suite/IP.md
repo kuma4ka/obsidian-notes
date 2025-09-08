@@ -1,5 +1,0 @@
-An **Internet Protocol (IP) address** is the unique identifying number assigned to every device connected to the internet. An IP address definition is a numeric label assigned to devices that use the internet to communicate. Computers that communicate over the internet or via local networks share information to a specific location using IP addresses.
-
-IP addresses have two distinct versions or standards. The Internet Protocol version 4 (IPv4) address is the older of the two, which has space for up to 4 billion IP addresses and is assigned to all computers. The more recent Internet Protocol version 6 (IPv6) has space for trillions of IP addresses, which accounts for the new breed of devices in addition to computers. There are also several types of IP addresses, including public, private, [static, and dynamic IP addresses](https://www.fortinet.com/resources/cyberglossary/static-vs-dynamic-ip).
-
-Source [ip](https://www.fortinet.com/resources/cyberglossary/what-is-ip-address)

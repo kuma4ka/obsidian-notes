@@ -1,3 +1,0 @@
-- Segment networks so critical services are isolated  
-- Use ACLs to restrict which hosts can access sensitive ports  
-- Limits lateral movement in case of breaches

@@ -1,6 +1,0 @@
-- **Usage:** Legacy remote terminal access  
-- **Threats:** Unencrypted credentials and commands  
-- **Best Practices:**  
-  - Avoid use; replace with SSH  
-  - Restrict legacy networks if needed  
-  - Consider VPN for extra security

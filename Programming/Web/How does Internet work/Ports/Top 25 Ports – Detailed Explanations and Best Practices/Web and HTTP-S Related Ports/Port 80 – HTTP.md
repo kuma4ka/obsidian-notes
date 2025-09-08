@@ -1,6 +1,0 @@
-- **Usage:** Standard unencrypted web traffic  
-- **Threats:** Eavesdropping, session hijacking  
-- **Best Practices:**  
-  - Redirect to HTTPS  
-  - Enable HSTS  
-  - Disable directory listings and default pages

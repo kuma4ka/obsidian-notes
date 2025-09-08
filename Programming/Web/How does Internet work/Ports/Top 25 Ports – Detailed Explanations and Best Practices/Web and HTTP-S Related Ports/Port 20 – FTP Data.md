@@ -1,6 +1,0 @@
-- **Usage:** Data channel for FTP active mode  
-- **Threats:** Clear-text data, NAT issues  
-- **Best Practices:**  
-  - Use passive FTP or SFTP/FTPS  
-  - Enforce authentication and logging  
-  - Limit exposure to trusted networks

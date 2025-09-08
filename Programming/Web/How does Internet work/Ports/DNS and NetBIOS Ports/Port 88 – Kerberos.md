@@ -1,6 +1,0 @@
-- **Usage:** Authentication in Windows/AD environments  
-- **Threats:** Ticket replay attacks, brute-force  
-- **Best Practices:**  
-  - Enforce strong encryption  
-  - Monitor authentication traffic  
-  - Keep domain controllers patched

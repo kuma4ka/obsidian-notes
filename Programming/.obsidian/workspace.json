@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d0999ffda941fb7a",
+        "id": "5000a8f76775428b",
         "type": "tabs",
         "children": [
           {
-            "id": "e9099d8897c19c76",
+            "id": "ca812eefa382986f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/How does Internet work/Ports/1. Introduction to Network Ports/1.3 Threat Landscape and Historical Incidents.md",
+                "file": "Web/How does Internet work/The Internet Protocol Suite/UDP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.3 Threat Landscape and Historical Incidents"
+              "title": "UDP"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/How does Internet work/Ports/1. Introduction to Network Ports/1.3 Threat Landscape and Historical Incidents.md",
+                "file": "Web/How does Internet work/The Internet Protocol Suite/UDP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 1.3 Threat Landscape and Historical Incidents"
+              "title": "Backlinks for UDP"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/How does Internet work/Ports/1. Introduction to Network Ports/1.3 Threat Landscape and Historical Incidents.md",
+                "file": "Web/How does Internet work/The Internet Protocol Suite/UDP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 1.3 Threat Landscape and Historical Incidents"
+              "title": "Outgoing links from UDP"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/How does Internet work/Ports/1. Introduction to Network Ports/1.3 Threat Landscape and Historical Incidents.md",
+                "file": "Web/How does Internet work/The Internet Protocol Suite/UDP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1.3 Threat Landscape and Historical Incidents"
+              "title": "Outline of UDP"
             }
           }
         ]
@@ -174,42 +174,42 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "1b3feb018b9196bf",
+  "active": "ca812eefa382986f",
   "lastOpenFiles": [
-    "Web/How does Internet work/Ports/1. Introduction to Network Ports/1.2 Importance of Port Security.md",
-    "Web/How does Internet work/Ports/1. Introduction to Network Ports/1.1 Overview of Network Ports.md",
-    "Web/How does Internet work/Ports/DNS and NetBIOS Ports/Port 139 – NetBIOS Session Service.md",
-    "Web/How does Internet work/Ports/DNS and NetBIOS Ports/Port 137 – NetBIOS Name Service.md",
-    "Web/How does Internet work/Ports/DNS and NetBIOS Ports/Port 135 – RPC.md",
-    "Web/How does Internet work/Ports/DNS and NetBIOS Ports/Port 88 – Kerberos.md",
-    "Web/How does Internet work/Ports/DNS and NetBIOS Ports/Port 53 – DNS.md",
-    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/Email and Communication Ports/Port 993 – IMAPS.md",
-    "Web/How does Internet work/Ports/DNS and NetBIOS Ports",
-    "Web/How does Internet work/Ports/Untitled.md",
-    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/Email and Communication Ports/Port 465 – SMTPS.md",
-    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/Email and Communication Ports/Port 143 – IMAP.md",
-    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/Email and Communication Ports/Port 110 – POP3.md",
-    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/Email and Communication Ports/Port 25 – SMTP.md",
-    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/File Transfer and Remote Access Ports/Port 69 – TFTP.md",
-    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/Email and Communication Ports",
-    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/File Transfer and Remote Access Ports/Port 23 – Telnet.md",
-    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/File Transfer and Remote Access Ports/Port 22 – SSH.md",
-    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/File Transfer and Remote Access Ports/Port 21 – FTP Control.md",
-    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/File Transfer and Remote Access Ports/Port 20 – FTP Data.md",
-    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/Web and HTTP-S Related Ports/Port 8888 – Custom Web Proxy Services.md",
-    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/File Transfer and Remote Access Ports",
-    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/Web and HTTP-S Related Ports/Port 20 – FTP Data.md",
-    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/Web and HTTP-S Related Ports",
-    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/Web and HTTP-S Related Ports/Port 8443 – Alternate HTTPS.md",
-    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/Web and HTTP-S Related Ports/Port 8080 – Alternate HTTP.md",
-    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/Web and HTTP-S Related Ports/Port 443 – HTTPS.md",
-    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/Web and HTTP-S Related Ports/Port 80 – HTTP.md",
-    "Web/How does Internet work/Ports/Overview – Why These 25 Ports Matter/Roadmap to a Layered Security Approach.md",
-    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices",
-    "Web/How does Internet work/Ports/Overview – Why These 25 Ports Matter/Attack Patterns and Potential Misconfigurations.md",
-    "Web/How does Internet work/Ports/Overview – Why These 25 Ports Matter",
-    "Web/How does Internet work/Ports/Core Principles of Port Management",
-    "Web/How does Internet work/Ports/Planning a Port Security Strategy",
+    "Web/How does Internet work/The Internet Protocol Suite/Transmission Control Protocol (TCP).md",
+    "Web/How does Internet work/The Internet Protocol Suite/Internet Protocol Suite (TCP IP).md",
+    "Web/How does Internet work/The Internet Protocol Suite/Internet Protocol (IP) Address.md",
+    "Web/How does Internet work/Router.md",
+    "Web/How does Internet work/Ports/5. Overview – Why These 25 Ports Matter/5.1 Service Categories and Their Importance.md",
+    "Web/How does Internet work/Ports/4. Core Principles of Port Management/4.3 Access Control and Network Segmentation.md",
+    "Web/How does Internet work/Ports/4. Core Principles of Port Management/4.2 Firewalls, IDS IPS, and Monitoring.md",
+    "Web/How does Internet work/Ports/4. Core Principles of Port Management/4.1 Minimizing the Attack Surface.md",
+    "Web/How does Internet work/Ports/6. Top 25 Ports – Detailed Explanations and Best Practices/6.1 Web and HTTP-S Related Ports/Port 20 – FTP Data.md",
+    "Web/How does Internet work/Ports/6. Top 25 Ports – Detailed Explanations and Best Practices/6.1 Web and HTTP-S Related Ports/Port 80 – HTTP.md",
+    "Web/How does Internet work/Ports/6. Top 25 Ports – Detailed Explanations and Best Practices/6.4 DNS and NetBIOS Ports/Port 445 – SMB.md",
+    "Web/How does Internet work/Ports/6. Top 25 Ports – Detailed Explanations and Best Practices/6.4 DNS and NetBIOS Ports/Port 139 – NetBIOS Session Service.md",
+    "Web/How does Internet work/Ports/6. Top 25 Ports – Detailed Explanations and Best Practices/6.4 DNS and NetBIOS Ports/Port 138 – NetBIOS Datagram Service.md",
+    "Web/How does Internet work/Ports/6. Top 25 Ports – Detailed Explanations and Best Practices/6.4 DNS and NetBIOS Ports/Port 137 – NetBIOS Name Service.md",
+    "Web/How does Internet work/Ports/6. Top 25 Ports – Detailed Explanations and Best Practices/6.4 DNS and NetBIOS Ports/Port 135 – RPC.md",
+    "Web/How does Internet work/Ports/6. Top 25 Ports – Detailed Explanations and Best Practices/6.4 DNS and NetBIOS Ports/Port 88 – Kerberos.md",
+    "Web/How does Internet work/Ports/6. Top 25 Ports – Detailed Explanations and Best Practices/6.4 DNS and NetBIOS Ports/Port 53 – DNS.md",
+    "Web/How does Internet work/Ports/6. Top 25 Ports – Detailed Explanations and Best Practices/6.3 Email and Communication Ports/Port 993 – IMAPS.md",
+    "Web/How does Internet work/Ports/6. Top 25 Ports – Detailed Explanations and Best Practices/6.3 Email and Communication Ports/Port 465 – SMTPS.md",
+    "Web/How does Internet work/Ports/6. Top 25 Ports – Detailed Explanations and Best Practices/6.3 Email and Communication Ports/Port 143 – IMAP.md",
+    "Web/How does Internet work/Ports/6. Top 25 Ports – Detailed Explanations and Best Practices/6.3 Email and Communication Ports/Port 110 – POP3.md",
+    "Web/How does Internet work/Ports/6. Top 25 Ports – Detailed Explanations and Best Practices/6.3 Email and Communication Ports/Port 25 – SMTP.md",
+    "Web/How does Internet work/Ports/6. Top 25 Ports – Detailed Explanations and Best Practices/6.2 File Transfer and Remote Access Ports/Port 69 – TFTP.md",
+    "Web/How does Internet work/Ports/6. Top 25 Ports – Detailed Explanations and Best Practices/6.2 File Transfer and Remote Access Ports/Port 23 – Telnet.md",
+    "Web/How does Internet work/Ports/6. Top 25 Ports – Detailed Explanations and Best Practices/6.2 File Transfer and Remote Access Ports/Port 22 – SSH.md",
+    "Web/How does Internet work/Ports/6. Top 25 Ports – Detailed Explanations and Best Practices/6.2 File Transfer and Remote Access Ports/Port 21 – FTP Control.md",
+    "Web/How does Internet work/Ports/6. Top 25 Ports – Detailed Explanations and Best Practices/6.1 Web and HTTP-S Related Ports",
+    "Web/How does Internet work/Ports/6. Top 25 Ports – Detailed Explanations and Best Practices/6.4 DNS and NetBIOS Ports",
+    "Web/How does Internet work/Ports/6. Top 25 Ports – Detailed Explanations and Best Practices/6.3 Email and Communication Ports",
+    "Web/How does Internet work/Ports/6. Top 25 Ports – Detailed Explanations and Best Practices/6.2 File Transfer and Remote Access Ports",
+    "Web/How does Internet work/Ports/6. Top 25 Ports – Detailed Explanations and Best Practices",
+    "Web/How does Internet work/Ports/5. Overview – Why These 25 Ports Matter",
+    "Web/How does Internet work/Ports/4. Core Principles of Port Management",
+    "Web/How does Internet work/Ports/3. Planning a Port Security Strategy",
     "Web/How does Internet work/Ports/2. Fundamental Concepts and Threat Landscape",
     "Web/How does Internet work/Ports/1. Introduction to Network Ports"
   ]
