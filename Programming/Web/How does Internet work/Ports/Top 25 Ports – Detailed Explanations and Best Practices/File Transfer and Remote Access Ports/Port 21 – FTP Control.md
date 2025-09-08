@@ -1,0 +1,6 @@
+- **Usage:** Command channel for FTP sessions  
+- **Threats:** Credential sniffing, brute-force attacks  
+- **Best Practices:**  
+  - Use FTPS or SFTP  
+  - Disable anonymous logins  
+  - Apply IP filtering and rate limiting

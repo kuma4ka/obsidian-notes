@@ -1,0 +1,3 @@
+- List all devices, services, and applications  
+- Map which services use which ports  
+- Identify unnecessary or legacy services to disable and reduce risk

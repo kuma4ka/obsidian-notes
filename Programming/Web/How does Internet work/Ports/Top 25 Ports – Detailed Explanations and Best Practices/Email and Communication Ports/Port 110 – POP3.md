@@ -1,0 +1,6 @@
+- **Usage:** Email retrieval (unencrypted)  
+- **Threats:** Intercepted credentials and emails  
+- **Best Practices:**  
+  - Use POP3S (port 995)  
+  - Enforce strong authentication  
+  - Update server software regularly

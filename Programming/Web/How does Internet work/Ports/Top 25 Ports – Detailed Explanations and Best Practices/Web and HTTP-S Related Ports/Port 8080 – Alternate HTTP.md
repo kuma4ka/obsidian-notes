@@ -1,0 +1,6 @@
+- **Usage:** Proxy servers, development, alternate web services  
+- **Threats:** Exposure of internal apps, misconfigured proxies  
+- **Best Practices:**  
+  - Limit internal access or VPN  
+  - Secure admin consoles  
+  - Regular config reviews

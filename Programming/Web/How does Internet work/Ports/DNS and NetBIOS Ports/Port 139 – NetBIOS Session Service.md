@@ -1,0 +1,6 @@
+- **Usage:** File/print sharing over NetBIOS  
+- **Threats:** Unauthorized access, SMB exploits  
+- **Best Practices:**  
+  - Disable if legacy service is unnecessary  
+  - Limit exposure to internal networks  
+  - Use modern SMB alternatives

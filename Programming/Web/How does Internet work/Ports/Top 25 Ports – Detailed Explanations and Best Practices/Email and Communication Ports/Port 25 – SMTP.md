@@ -1,0 +1,6 @@
+- **Usage:** Mail transfer between servers  
+- **Threats:** Open relay abuse, spam, injection attacks  
+- **Best Practices:**  
+  - Disallow open relays  
+  - Use SMTP authentication  
+  - Implement SPF, DKIM, DMARC

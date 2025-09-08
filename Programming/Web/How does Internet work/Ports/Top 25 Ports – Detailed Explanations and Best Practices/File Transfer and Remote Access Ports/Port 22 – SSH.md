@@ -1,0 +1,6 @@
+- **Usage:** Secure shell access, SFTP, tunneling  
+- **Threats:** Brute force attacks, weak ciphers  
+- **Best Practices:**  
+  - Key-based authentication, disable passwords  
+  - Change default port if possible  
+  - Update SSH software, use modern ciphers

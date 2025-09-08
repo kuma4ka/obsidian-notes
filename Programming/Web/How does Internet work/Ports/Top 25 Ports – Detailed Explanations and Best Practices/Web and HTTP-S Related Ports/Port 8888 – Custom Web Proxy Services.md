@@ -1,0 +1,6 @@
+- **Usage:** Local proxies (e.g., Fiddler) or custom dashboards  
+- **Threats:** External exposure leading to interception  
+- **Best Practices:**  
+  - Bind to localhost unless remote access needed  
+  - Use firewall rules and authentication  
+  - Audit service configs and logs

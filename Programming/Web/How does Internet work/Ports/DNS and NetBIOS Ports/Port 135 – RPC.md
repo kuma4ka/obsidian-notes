@@ -1,0 +1,6 @@
+- **Usage:** Remote Procedure Calls, Windows services  
+- **Threats:** Exploitable by malware for remote code execution  
+- **Best Practices:**  
+  - Restrict access to trusted hosts  
+  - Use firewalls  
+  - Monitor for unusual RPC activity

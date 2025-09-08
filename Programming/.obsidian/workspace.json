@@ -13,28 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/How does Internet work/Router.md",
+                "file": "Web/How does Internet work/Ports/1. Introduction to Network Ports/1.3 Threat Landscape and Historical Incidents.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Router"
-            }
-          }
-        ]
-      },
-      {
-        "id": "c19fb092c13a0722",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "39c445cefab6261b",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "1.3 Threat Landscape and Historical Incidents"
             }
           }
         ]
@@ -94,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 517.5
   },
   "right": {
     "id": "c72d3bfbb388d7da",
@@ -110,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/How does Internet work/Router.md",
+                "file": "Web/How does Internet work/Ports/1. Introduction to Network Ports/1.3 Threat Landscape and Historical Incidents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Router"
+              "title": "Backlinks for 1.3 Threat Landscape and Historical Incidents"
             }
           },
           {
@@ -129,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/How does Internet work/Router.md",
+                "file": "Web/How does Internet work/Ports/1. Introduction to Network Ports/1.3 Threat Landscape and Historical Incidents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Router"
+              "title": "Outgoing links from 1.3 Threat Landscape and Historical Incidents"
             }
           },
           {
@@ -158,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/How does Internet work/Router.md",
+                "file": "Web/How does Internet work/Ports/1. Introduction to Network Ports/1.3 Threat Landscape and Historical Incidents.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Router"
+              "title": "Outline of 1.3 Threat Landscape and Historical Incidents"
             }
           }
         ]
@@ -192,36 +176,41 @@
   },
   "active": "1b3feb018b9196bf",
   "lastOpenFiles": [
-    "Web/How does Internet work/Ports",
-    "Web/How does Internet work/Router.md",
-    "Web/How does Internet work/The Internet Protocol Suite/The Internet Protocol Suite.md",
-    "Web/How does Internet work/The Internet Protocol Suite/TCP.md",
-    "Web/How does Internet work/The Internet Protocol Suite/IP.md",
-    "Web/How does Internet work/The Internet Protocol Suite",
-    "Web/Untitled 1",
-    "Web/How does Internet work",
-    "copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot-custom-prompts/Simplify.md",
-    "copilot-custom-prompts/Summarize.md",
-    "copilot-custom-prompts/Translate to Chinese.md",
-    "Web/How does Internet work/The Internet Protocol Suite/UDP.md",
-    "Untitled.base",
-    "copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot-custom-prompts/Remove URLs.md",
-    "copilot-custom-prompts/Generate glossary.md",
-    "copilot-custom-prompts/Generate table of contents.md",
-    "copilot-custom-prompts/Make longer.md",
-    "copilot-custom-prompts/Make shorter.md",
-    "copilot-custom-prompts/Emojify.md",
-    "copilot-custom-prompts/Explain like I am 5.md",
-    "copilot-custom-prompts/Fix grammar and spelling.md",
-    "copilot-custom-prompts",
-    "[[TCP.md",
-    "Welcome.md",
-    "Algorithms",
-    "Projects",
-    "Data Structures",
-    "Web",
-    "Languages"
+    "Web/How does Internet work/Ports/1. Introduction to Network Ports/1.2 Importance of Port Security.md",
+    "Web/How does Internet work/Ports/1. Introduction to Network Ports/1.1 Overview of Network Ports.md",
+    "Web/How does Internet work/Ports/DNS and NetBIOS Ports/Port 139 – NetBIOS Session Service.md",
+    "Web/How does Internet work/Ports/DNS and NetBIOS Ports/Port 137 – NetBIOS Name Service.md",
+    "Web/How does Internet work/Ports/DNS and NetBIOS Ports/Port 135 – RPC.md",
+    "Web/How does Internet work/Ports/DNS and NetBIOS Ports/Port 88 – Kerberos.md",
+    "Web/How does Internet work/Ports/DNS and NetBIOS Ports/Port 53 – DNS.md",
+    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/Email and Communication Ports/Port 993 – IMAPS.md",
+    "Web/How does Internet work/Ports/DNS and NetBIOS Ports",
+    "Web/How does Internet work/Ports/Untitled.md",
+    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/Email and Communication Ports/Port 465 – SMTPS.md",
+    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/Email and Communication Ports/Port 143 – IMAP.md",
+    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/Email and Communication Ports/Port 110 – POP3.md",
+    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/Email and Communication Ports/Port 25 – SMTP.md",
+    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/File Transfer and Remote Access Ports/Port 69 – TFTP.md",
+    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/Email and Communication Ports",
+    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/File Transfer and Remote Access Ports/Port 23 – Telnet.md",
+    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/File Transfer and Remote Access Ports/Port 22 – SSH.md",
+    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/File Transfer and Remote Access Ports/Port 21 – FTP Control.md",
+    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/File Transfer and Remote Access Ports/Port 20 – FTP Data.md",
+    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/Web and HTTP-S Related Ports/Port 8888 – Custom Web Proxy Services.md",
+    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/File Transfer and Remote Access Ports",
+    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/Web and HTTP-S Related Ports/Port 20 – FTP Data.md",
+    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/Web and HTTP-S Related Ports",
+    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/Web and HTTP-S Related Ports/Port 8443 – Alternate HTTPS.md",
+    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/Web and HTTP-S Related Ports/Port 8080 – Alternate HTTP.md",
+    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/Web and HTTP-S Related Ports/Port 443 – HTTPS.md",
+    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices/Web and HTTP-S Related Ports/Port 80 – HTTP.md",
+    "Web/How does Internet work/Ports/Overview – Why These 25 Ports Matter/Roadmap to a Layered Security Approach.md",
+    "Web/How does Internet work/Ports/Top 25 Ports – Detailed Explanations and Best Practices",
+    "Web/How does Internet work/Ports/Overview – Why These 25 Ports Matter/Attack Patterns and Potential Misconfigurations.md",
+    "Web/How does Internet work/Ports/Overview – Why These 25 Ports Matter",
+    "Web/How does Internet work/Ports/Core Principles of Port Management",
+    "Web/How does Internet work/Ports/Planning a Port Security Strategy",
+    "Web/How does Internet work/Ports/2. Fundamental Concepts and Threat Landscape",
+    "Web/How does Internet work/Ports/1. Introduction to Network Ports"
   ]
 }

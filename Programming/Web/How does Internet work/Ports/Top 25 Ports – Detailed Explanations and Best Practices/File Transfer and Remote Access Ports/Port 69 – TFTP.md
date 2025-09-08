@@ -1,0 +1,6 @@
+- **Usage:** Simple file transfers (firmware, PXE boot)  
+- **Threats:** No authentication, file tampering  
+- **Best Practices:**  
+  - Restrict to internal networks  
+  - Only trusted devices allowed  
+  - Consider secure alternative protocols

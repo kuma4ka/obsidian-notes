@@ -1,0 +1,6 @@
+- **Usage:** Name resolution on local networks  
+- **Threats:** Information disclosure, spoofing  
+- **Best Practices:**  
+  - Disable if unused  
+  - Restrict to internal networks  
+  - Monitor traffic
