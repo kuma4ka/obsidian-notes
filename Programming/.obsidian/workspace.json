@@ -99,7 +99,77 @@
   "right": {
     "id": "c72d3bfbb388d7da",
     "type": "split",
-    "children": [],
+    "children": [
+      {
+        "id": "4064a3a80f82e793",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62c0d5f38a7ead64",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Web/How does Internet work/Router.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Router"
+            }
+          },
+          {
+            "id": "6a4dec1c059fbba2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Web/How does Internet work/Router.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Router"
+            }
+          },
+          {
+            "id": "a623c635437b116c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "881b89a81437fa7f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Web/How does Internet work/Router.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Router"
+            }
+          }
+        ]
+      }
+    ],
     "direction": "horizontal",
     "width": 328.5,
     "collapsed": true
