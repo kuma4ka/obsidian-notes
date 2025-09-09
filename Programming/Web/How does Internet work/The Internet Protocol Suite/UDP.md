@@ -12,6 +12,8 @@ The **User Datagram Protocol (UDP)** is a communication protocol used for **time
 - **DNS lookups:** Quick request-response communication  
 - **Broadcasts or multicasts:** Sending data to multiple devices efficiently  
 
+![[5 applications of upd.png]]
+
 ---
 
 ## **Key Differences from TCP**

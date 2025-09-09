@@ -29,6 +29,8 @@ IP addresses are essential for routing data between devices. Each packet of info
 - **Dynamic IP:** Assigned temporarily by a DHCP server  
 - [Learn more about static vs dynamic IPs](https://www.fortinet.com/resources/cyberglossary/static-vs-dynamic-ip)
 
+![[Types of IP addresses.png]]
+
 ---
 
 **Key Points:**  
