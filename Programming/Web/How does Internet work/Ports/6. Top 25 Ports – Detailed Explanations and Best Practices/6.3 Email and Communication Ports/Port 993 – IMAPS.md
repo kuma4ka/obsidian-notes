@@ -1,13 +1,34 @@
+**Definition:**  
+Port 993 is used for **IMAP over SSL/TLS (IMAPS)**, providing **encrypted access to email messages on a mail server**.
 
-**Usage:** Secure IMAP email retrieval.
+---
 
-**Threats:**
-- Misconfigured TLS
-- Outdated protocols
+## **Usage**  
+- Secure retrieval and management of emails  
+- Synchronization across multiple devices  
 
-**Best Practices:**
-- Enforce TLS 1.2+
-- Update IMAP servers regularly
-- Use strong authentication
+---
 
-**Category:** Email Services ([5.1 Service Categories](../../5%20Overview%20-%20Why%20These%2025%20Ports%20Matter/5.1%20Service%20Categories%20and%20Their%20Importance.md))
+## **Threats**  
+- Misconfigured TLS could expose credentials  
+- Interception of email traffic  
+- Account compromise  
+
+---
+
+## **Best Practices**  
+- Enforce TLS 1.2 or 1.3  
+- Use strong authentication  
+- Monitor server logs for suspicious access  
+
+---
+
+**Related Nodes:**  
+- [[Port 143 – IMAP]]  
+- [[Port 110 – POP3]]  
+- [[Port 465 – SMTPS]]  
+
+---
+
+**Notes:**  
+- IMAPS is the modern standard for encrypted email access.

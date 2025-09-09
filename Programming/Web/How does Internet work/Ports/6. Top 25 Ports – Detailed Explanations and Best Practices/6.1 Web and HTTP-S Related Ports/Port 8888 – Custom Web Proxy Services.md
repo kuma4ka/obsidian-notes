@@ -1,12 +1,35 @@
-**Usage:** Local proxy apps (e.g., Fiddler) or custom dashboards.
+**Definition:**  
+Port 8888 is often used for **alternate web services, proxy servers, or development tools**.
 
-**Threats:**
-- Unintended external exposure
-- Data interception or unauthorized access
+---
 
-**Best Practices:**
-- Bind services to localhost unless remote access is required
-- Apply firewall rules and authentication
-- Audit service configurations and access logs
+## **Usage**  
+- Web dashboards for applications  
+- Proxy or cache servers  
+- Development environments (e.g., Jupyter Notebook default)  
 
-**Category:** Web Traffic ([5.1 Service Categories](../../5%20Overview%20-%20Why%20These%2025%20Ports%20Matter/5.1%20Service%20Categories%20and%20Their%20Importance.md))
+---
+
+## **Threats**  
+- Unencrypted communication if HTTP is used  
+- Exposure of internal tools or dashboards to external networks  
+- Brute-force attacks on admin interfaces  
+
+---
+
+## **Best Practices**  
+- Restrict access to trusted IPs  
+- Prefer HTTPS for sensitive applications  
+- Use strong authentication and monitor access logs  
+
+---
+
+**Related Nodes:**  
+- [[Port 8080 – Alternate HTTP]]  
+- [[Port 443 – HTTPS]]  
+- [[Secure File Transfer and Web Practices]]  
+
+---
+
+**Notes:**  
+- Common in development and internal apps; never leave publicly exposed without proper security.

@@ -1,14 +1,36 @@
-**Usage:** Secure remote shell, SFTP, and tunneling.
+**Definition:**  
+Port 22 is used for **Secure Shell (SSH)**, providing encrypted remote login and secure file transfer.
 
-**Threats:**
-- Brute-force attacks
-- Weak cipher suites
-- Misconfigurations
+---
 
-**Best Practices:**
-- Enforce key-based authentication; disable passwords
-- Change default port if possible
-- Use rate-limiting tools (Fail2Ban)
-- Keep SSH software updated
+## **Usage**  
+- Remote system administration  
+- Secure file transfers (SCP, SFTP)  
+- Tunnel other protocols securely  
 
-**Category:** File Transfer and Remote Access ([5.1 Service Categories](../../5%20Overview%20-%20Why%20These%2025%20Ports%20Matter/5.1%20Service%20Categories%20and%20Their%20Importance.md))
+---
+
+## **Threats**  
+- Brute-force login attempts  
+- Credential theft  
+- Exploitation of outdated SSH versions  
+
+---
+
+## **Best Practices**  
+- Use strong, unique passwords or key-based authentication  
+- Change default SSH port if possible  
+- Limit login attempts and use 2FA  
+- Keep SSH servers updated  
+
+---
+
+**Related Nodes:**  
+- [[Port 21 – FTP Control]]  
+- [[Port 443 – HTTPS]]  
+- [[Secure Remote Access]]  
+
+---
+
+**Notes:**  
+- SSH is critical for secure administration; monitoring and strict access control are essential.

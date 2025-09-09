@@ -1,14 +1,35 @@
-**Usage:** Secure web traffic via SSL/TLS.
+**Definition:**  
+Port 443 is used for **Hypertext Transfer Protocol Secure (HTTPS)**, providing **encrypted web traffic** using TLS/SSL.
 
-**Threats:**
-- Vulnerabilities in older TLS versions
-- Certificate misconfigurations
-- Downgrade attacks
+---
 
-**Best Practices:**
-- Enforce TLS 1.2 or higher
-- Use strong cipher suites (e.g., ECDHE, AES-GCM)
-- Implement OCSP Stapling and HSTS
-- Monitor certificates and renew before expiration
+## **Usage**  
+- Secure web browsing, online banking, e-commerce  
+- Encrypted API communications  
 
-**Category:** Web Traffic ([5.1 Service Categories](../../5%20Overview%20-%20Why%20These%2025%20Ports%20Matter/5.1%20Service%20Categories%20and%20Their%20Importance.md))
+---
+
+## **Threats**  
+- Misconfigured TLS (weak ciphers, outdated protocols)  
+- Certificate expiration or mismanagement  
+- MITM attacks if certificates are not validated  
+
+---
+
+## **Best Practices**  
+- Use modern TLS versions (TLS 1.2/1.3)  
+- Regularly update and manage certificates  
+- Enable HSTS to enforce HTTPS connections  
+- Monitor for abnormal encrypted traffic  
+
+---
+
+**Related Nodes:**  
+- [[Port 80 – HTTP]]  
+- [[Web Security Best Practices]]  
+- [[TLS-SSL Concepts]]  
+
+---
+
+**Notes:**  
+- HTTPS ensures confidentiality and integrity for web traffic.  

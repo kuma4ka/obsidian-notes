@@ -1,12 +1,34 @@
-**Usage:** Proxy servers, development environments, or alternative web services.
+**Definition:**  
+Port 8080 is commonly used as an **alternate HTTP port** or for **proxy/web server testing**.
 
-**Threats:**
-- Exposure of internal or development apps
-- Misconfigured proxy settings
+---
 
-**Best Practices:**
-- Restrict access to internal networks or VPN
-- Secure admin consoles with authentication and HTTPS
-- Regularly review configuration
+## **Usage**  
+- Development servers and web applications  
+- Proxy services and load balancer interfaces  
 
-**Category:** Web Traffic ([5.1 Service Categories](../../5%20Overview%20-%20Why%20These%2025%20Ports%20Matter/5.1%20Service%20Categories%20and%20Their%20Importance.md))
+---
+
+## **Threats**  
+- Same as HTTP (unencrypted traffic) if not tunneled via HTTPS  
+- Exposure to internal services if firewall rules are weak  
+- Exploitable web applications on development servers  
+
+---
+
+## **Best Practices**  
+- Redirect traffic to HTTPS when possible  
+- Restrict access to trusted networks for internal services  
+- Use strong authentication for proxies or admin interfaces  
+
+---
+
+**Related Nodes:**  
+- [[Port 80 – HTTP]]  
+- [[Port 443 – HTTPS]]  
+- [[Secure File Transfer and Web Practices]]  
+
+---
+
+**Notes:**  
+- Port 8080 is often used for testing or internal apps and should not be exposed publicly without security controls.

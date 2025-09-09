@@ -1,12 +1,32 @@
-**Usage:** Legacy remote terminal access.
+**Definition:**  
+Port 23 is used for **Telnet**, an **unencrypted protocol** for remote login.
 
-**Threats:**
-- Entirely unencrypted communication
-- Credential exposure
+---
 
-**Best Practices:**
-- Avoid Telnet; use SSH
-- Restrict to isolated networks if needed
-- Consider VPN for additional security
+## **Usage**  
+- Legacy remote administration  
+- Rarely used today due to insecurity  
 
-**Category:** File Transfer and Remote Access ([5.1 Service Categories](../../5%20Overview%20-%20Why%20These%2025%20Ports%20Matter/5.1%20Service%20Categories%20and%20Their%20Importance.md))
+---
+
+## **Threats**  
+- Credentials and data transmitted in plaintext  
+- Susceptible to eavesdropping and MITM attacks  
+
+---
+
+## **Best Practices**  
+- Avoid using Telnet; replace with **SSH (Port 22)**  
+- If used internally, restrict access to trusted networks  
+- Monitor traffic for suspicious activity  
+
+---
+
+**Related Nodes:**  
+- [[Port 22 – SSH]]  
+- [[Secure Remote Access]]  
+
+---
+
+**Notes:**  
+- Telnet is considered insecure; use only in controlled legacy environments.

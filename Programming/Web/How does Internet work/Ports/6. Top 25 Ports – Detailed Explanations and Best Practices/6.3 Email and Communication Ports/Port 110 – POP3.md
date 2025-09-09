@@ -1,11 +1,34 @@
-**Usage:** Email retrieval (unencrypted).
+**Definition:**  
+Port 110 is used for **Post Office Protocol v3 (POP3)**, allowing **email clients to retrieve messages** from a mail server.
 
-**Threats:**
-- Credentials and messages can be intercepted
+---
 
-**Best Practices:**
-- Use POP3S (port 995)
-- Strong authentication; disable anonymous access
-- Regularly update mail servers
+## **Usage**  
+- Downloading emails to local clients  
+- Usually removes messages from server after retrieval  
 
-**Category:** Email Services ([5.1 Service Categories](../../5%20Overview%20-%20Why%20These%2025%20Ports%20Matter/5.1%20Service%20Categories%20and%20Their%20Importance.md))
+---
+
+## **Threats**  
+- Credentials transmitted in plaintext if unencrypted  
+- Interception of email content  
+- Account compromise  
+
+---
+
+## **Best Practices**  
+- Prefer **POP3S (Port 995)** for encrypted retrieval  
+- Use strong passwords and secure email clients  
+- Limit POP3 access to trusted networks  
+
+---
+
+**Related Nodes:**  
+- [[Port 993 – IMAPS]]  
+- [[Port 465 – SMTPS]]  
+- [[Secure Email Practices]]  
+
+---
+
+**Notes:**  
+- POP3 is largely replaced by IMAP for modern email syncing.

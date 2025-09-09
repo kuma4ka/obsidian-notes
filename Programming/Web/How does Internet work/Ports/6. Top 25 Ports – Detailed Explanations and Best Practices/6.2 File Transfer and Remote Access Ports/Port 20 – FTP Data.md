@@ -1,12 +1,33 @@
-**Usage:** Data channel for FTP active mode.
+**Definition:**  
+Port 20 is used for **FTP data transfer**. FTP transmits data in **cleartext**, making it vulnerable to interception.
 
-**Threats:**
-- Clear-text transmission
-- NAT issues exposing misconfigurations
+---
 
-**Best Practices:**
-- Prefer passive FTP or secure alternatives (SFTP/FTPS)
-- Enforce strict authentication and logging
-- Limit exposure to trusted networks
+## **Usage**  
+- File transfer between client and server  
+- Often paired with Port 21 for control commands  
 
-**Category:** File Transfer and Remote Access ([5.1 Service Categories](../../5%20Overview%20-%20Why%20These%2025%20Ports%20Matter/5.1%20Service%20Categories%20and%20Their%20Importance.md))
+---
+
+## **Threats**  
+- Eavesdropping on data  
+- Session hijacking  
+- Credential theft  
+
+---
+
+## **Best Practices**  
+- Prefer **SFTP or FTPS** for encrypted transfers  
+- Tunnel FTP over TLS/SSL  
+- Monitor FTP traffic for unusual activity  
+
+---
+
+**Related Nodes:**  
+- [[Port 21 – FTP Control]]  
+- [[Port 443 – HTTPS]]  
+
+---
+
+**Notes:**  
+- Avoid unencrypted FTP for sensitive data.

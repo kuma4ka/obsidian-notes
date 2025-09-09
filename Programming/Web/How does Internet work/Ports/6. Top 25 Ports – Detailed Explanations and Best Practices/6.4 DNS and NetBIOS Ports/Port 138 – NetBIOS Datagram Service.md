@@ -1,12 +1,32 @@
-**Usage:** Windows network datagram service for file and printer sharing.
+**Definition:**  
+Port 138 is used for **NetBIOS datagram services**, supporting file and printer sharing on Windows networks.
 
-**Threats:**
-- Interception of broadcast datagrams
-- Unauthorized access to shared resources
+---
 
-**Best Practices:**
-- Limit NetBIOS datagram traffic to trusted networks
-- Monitor unusual traffic patterns
-- Disable if not needed on modern networks
+## **Usage**  
+- Broadcast-based communication  
+- File and printer sharing in LAN  
 
-**Category:** Directory Services / Legacy Protocols ([5.1 Service Categories](../../5%20Overview%20-%20Why%20These%2025%20Ports%20Matter/5.1%20Service%20Categories%20and%20Their%20Importance.md))
+---
+
+## **Threats**  
+- Interception of broadcast datagrams  
+- Unauthorized access to shared resources  
+
+---
+
+## **Best Practices**  
+- Limit NetBIOS datagram traffic to trusted networks  
+- Monitor traffic for anomalies  
+- Disable if not needed on modern networks  
+
+---
+
+**Related Nodes:**  
+- [[Port 137 – NetBIOS Name Service]]  
+- [[Port 139 – NetBIOS Session Service]]  
+
+---
+
+**Notes:**  
+- NetBIOS datagram traffic is legacy; restrict to LAN.

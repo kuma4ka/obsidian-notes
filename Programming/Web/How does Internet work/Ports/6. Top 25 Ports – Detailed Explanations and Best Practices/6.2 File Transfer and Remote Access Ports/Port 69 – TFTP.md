@@ -1,12 +1,34 @@
-**Usage:** Simple file transfers (firmware updates, PXE boot).
+**Definition:**  
+Port 69 is used for **Trivial File Transfer Protocol (TFTP)**, a lightweight, unencrypted file transfer protocol.
 
-**Threats:**
-- No authentication
-- Susceptible to tampering and unauthorized downloads
+---
 
-**Best Practices:**
-- Restrict strictly to internal networks or VLANs
-- Allow access only to trusted devices
-- Consider encrypted alternatives for critical files
+## **Usage**  
+- Bootstrapping devices (network boot)  
+- Firmware updates for network equipment  
+- Simple file transfers in trusted environments  
 
-**Category:** File Transfer and Remote Access ([5.1 Service Categories](../../5%20Overview%20-%20Why%20These%2025%20Ports%20Matter/5.1%20Service%20Categories%20and%20Their%20Importance.md))
+---
+
+## **Threats**  
+- Unencrypted traffic  
+- No authentication (anyone can access files)  
+- Exploitation of misconfigured servers  
+
+---
+
+## **Best Practices**  
+- Restrict TFTP usage to **trusted internal networks**  
+- Use secure alternatives like **SFTP or SCP**  
+- Monitor and log all TFTP transfers  
+
+---
+
+**Related Nodes:**  
+- [[Port 20 – FTP Data]]  
+- [[Port 21 – FTP Control]]  
+
+---
+
+**Notes:**  
+- TFTP is convenient for simple tasks but inherently insecure; limit exposure.

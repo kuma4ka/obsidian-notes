@@ -1,13 +1,33 @@
-**Usage:** Windows file and printer sharing over NetBIOS sessions.
+**Definition:**  
+Port 139 is used for **NetBIOS sessions**, primarily for file and printer sharing on Windows networks.
 
-**Threats:**
-- Unauthorized access to shares
-- Malware propagation through network shares
-- Exploitable misconfigurations
+---
 
-**Best Practices:**
-- Restrict to LAN only
-- Monitor NetBIOS session traffic
-- Disable on public networks
+## **Usage**  
+- Establishes NetBIOS sessions for resource sharing  
 
-**Category:** Directory Services / Legacy Protocols ([5.1 Service Categories](../../5%20Overview%20-%20Why%20These%2025%20Ports%20Matter/5.1%20Service%20Categories%20and%20Their%20Importance.md))
+---
+
+## **Threats**  
+- Unauthorized access to shares  
+- Malware propagation  
+- Exploitable misconfigurations  
+
+---
+
+## **Best Practices**  
+- Restrict to LAN only  
+- Monitor session traffic  
+- Disable on public networks  
+
+---
+
+**Related Nodes:**  
+- [[Port 137 – NetBIOS Name Service]]  
+- [[Port 138 – NetBIOS Datagram Service]]  
+- [[Port 445 – SMB]]  
+
+---
+
+**Notes:**  
+- Legacy service; exposure outside LAN is a major risk.

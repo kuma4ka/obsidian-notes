@@ -1,13 +1,32 @@
-**Usage:** Windows name resolution on local networks.
+**Definition:**  
+Port 137 is used for **NetBIOS name resolution** in Windows networks.
 
-**Threats:**
-- Name spoofing
-- Information disclosure
-- Unauthorized enumeration of network resources
+---
 
-**Best Practices:**
-- Restrict NetBIOS to LAN only
-- Disable on public networks if not needed
-- Monitor unusual name service requests
+## **Usage**  
+- Resolving NetBIOS names on LANs  
 
-**Category:** Directory Services / Legacy Protocols ([5.1 Service Categories](../../5%20Overview%20-%20Why%20These%2025%20Ports%20Matter/5.1%20Service%20Categories%20and%20Their%20Importance.md))
+---
+
+## **Threats**  
+- Name spoofing  
+- Information disclosure  
+- Unauthorized network enumeration  
+
+---
+
+## **Best Practices**  
+- Restrict NetBIOS to LAN only  
+- Disable on public networks if not needed  
+- Monitor unusual name requests  
+
+---
+
+**Related Nodes:**  
+- [[Port 138 – NetBIOS Datagram Service]]  
+- [[Port 139 – NetBIOS Session Service]]  
+
+---
+
+**Notes:**  
+- NetBIOS is mostly legacy; limit exposure to reduce risk.

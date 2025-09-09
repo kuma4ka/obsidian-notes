@@ -1,11 +1,34 @@
-**Usage:** SMTP over SSL (legacy; port 587 preferred).
+**Definition:**  
+Port 465 is used for **SMTP over SSL/TLS (SMTPS)**, providing **encrypted email submission** from clients to servers.
 
-**Threats:**
-- Vulnerable if outdated SSL/TLS
+---
 
-**Best Practices:**
-- Use modern TLS on 465/587
-- Valid certificates
-- Strong cipher suites
+## **Usage**  
+- Sending emails securely from client applications  
+- Ensures encrypted transmission to prevent interception  
 
-**Category:** Email Services ([5.1 Service Categories](../../5%20Overview%20-%20Why%20These%2025%20Ports%20Matter/5.1%20Service%20Categories%20and%20Their%20Importance.md))
+---
+
+## **Threats**  
+- Misconfigured TLS can expose credentials  
+- Weak authentication or outdated software  
+- Exploitation of untrusted networks  
+
+---
+
+## **Best Practices**  
+- Use **modern TLS (1.2/1.3)**  
+- Require authentication for all outgoing email  
+- Monitor outgoing SMTP traffic for anomalies  
+
+---
+
+**Related Nodes:**  
+- [[Port 25 – SMTP]]  
+- [[Port 993 – IMAPS]]  
+- [[Secure Email Practices]]  
+
+---
+
+**Notes:**  
+- SMTPS (465) is preferred for secure client-to-server email submission.

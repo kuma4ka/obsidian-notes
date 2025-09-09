@@ -1,11 +1,34 @@
-**Usage:** Interactive email retrieval, folder management.
+**Definition:**  
+Port 143 is used for **Internet Message Access Protocol (IMAP)**, enabling **email clients to access and manage messages on a mail server**.
 
-**Threats:**
-- Unencrypted data interception
+---
 
-**Best Practices:**
-- Use IMAPS (port 993)
-- Strong authentication
-- Limit access to known clients/networks
+## **Usage**  
+- Synchronizing email across multiple devices  
+- Managing folders and message states on the server  
 
-**Category:** Email Services ([5.1 Service Categories](../../5%20Overview%20-%20Why%20These%2025%20Ports%20Matter/5.1%20Service%20Categories%20and%20Their%20Importance.md))
+---
+
+## **Threats**  
+- Credentials transmitted in plaintext if unencrypted  
+- Interception of sensitive email content  
+- Account compromise  
+
+---
+
+## **Best Practices**  
+- Use **IMAPS (Port 993)** for encrypted access  
+- Require strong authentication and secure passwords  
+- Enable server-side anti-phishing and anti-malware protections  
+
+---
+
+**Related Nodes:**  
+- [[Port 993 – IMAPS]]  
+- [[Port 110 – POP3]]  
+- [[Secure Email Practices]]  
+
+---
+
+**Notes:**  
+- IMAP is preferred over POP3 for modern email usage.
